@@ -1,0 +1,10 @@
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\bin\Debug\BTNs' Race.exe.config
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\bin\Debug\BTNs' Race.exe
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\bin\Debug\BTNs' Race.pdb
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs' Race.csprojAssemblyReference.cache
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs__Race.Properties.Resources.resources
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs' Race.csproj.GenerateResource.cache
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs' Race.csproj.CoreCompileInputs.cache
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs' Race.exe
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs' Race.pdb
+C:\Users\mr Sam\Desktop\Projects\BTNs' Race\BTNs' Race\obj\Debug\BTNs__Race.MainForm.resources
