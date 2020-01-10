@@ -58,10 +58,6 @@ namespace BTNs__Race
 
             if (t1 != null)
             {
-                //t1.Resume();
-                //t2.Resume();
-                //t3.Resume();
-
                 Resume();
 
                 return;
@@ -82,7 +78,7 @@ namespace BTNs__Race
         {
             button.Location = new Point(button.Location.X + rnd.Next(5), button.Location.Y);
 
-            WhereIsLider();
+            ChangeLeaderColor();
 
             Finish(button);
         }
@@ -97,7 +93,7 @@ namespace BTNs__Race
             }
         }
 
-        private void WhereIsLider()
+        private void ChangeLeaderColor()
         {
             Array.Sort(buttons);
             buttons[0].BackColor = Color.Yellow;
@@ -134,11 +130,8 @@ namespace BTNs__Race
         private void ButtonPause(object sender, EventArgs e)
         {
             buttonStart.Enabled = true;
-
-            //t1.Suspend();
-            //t2.Suspend();
-            //t3.Suspend();
-            Pause(); 
+            
+            Pause();
 
             buttonPause.Enabled = false;
         }
@@ -158,6 +151,11 @@ namespace BTNs__Race
             buttonTwo.Location = new Point(27, buttonTwo.Location.Y);
             buttonThree.Location = new Point(27, buttonThree.Location.Y);
 
+            SetBasicColor();
+        }
+
+        private void SetBasicColor()
+        {
             foreach (var item in buttons)
             {
                 item.BackColor = SystemColors.Control;
@@ -166,7 +164,7 @@ namespace BTNs__Race
 
         private void CloseForm(object sender, FormClosingEventArgs e)
         {
-            ButtonPause(this, new EventArgs());
+            Environment.Exit(0);
         } 
     }
 }
